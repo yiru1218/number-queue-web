@@ -1,0 +1,13 @@
+.data-table {
+    margin: 10px auto;
+    width: 550px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 10px -1px 20px 1px rgb(0 0 0 /20%);
+}
+
+.footer {
+    padding: 5px;
+    font-size: 12px;
+    text-align: right;
+}

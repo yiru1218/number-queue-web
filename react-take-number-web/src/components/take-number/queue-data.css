@@ -1,0 +1,59 @@
+p{
+    margin-bottom: 0 !important;
+}
+
+.current-queue-data {
+    max-width: 450px;
+    border-radius: 5px;
+    margin: 30px auto;
+    box-shadow: 10px -1px 20px 1px rgb(0 0 0 /20%);
+    padding: 10px;
+}
+
+.top {
+    font-size: 14px;
+}
+
+.current {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 100px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    font-size: 12px;
+    text-align: right;
+}
+
+.reloadImg {
+    width: 12px;
+    height: auto;
+    margin-left: 5px;
+    cursor: pointer;
+    /* 游標指過去會變成可以案的樣子 */
+
+}
+
+.take-number {
+    
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* .footer::after {
+    content: '';
+    background-image: url("./image/reload.png");
+    width: 12px;
+    height: auto;
+    margin-left: 5px;
+    cursor: pointer; 
+} */

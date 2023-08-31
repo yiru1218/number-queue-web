@@ -1,0 +1,5 @@
+.container {
+  max-width: 1080px ;
+  /* top、bottom: 20px , left、right: auto => means center*/
+  margin: 20px auto;
+}

@@ -1,0 +1,17 @@
+.card-center{
+    max-width: 300px;
+    margin: auto;
+}
+
+.text-size-large{
+    font-weight: 600;
+    font-size: 70px;
+}
+
+.text-size-small{
+    font-size: 14px !important;
+}
+
+p {
+    margin: 0;
+}

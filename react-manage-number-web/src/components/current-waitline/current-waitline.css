@@ -1,0 +1,40 @@
+.take-number {
+    max-width: 300px;
+    border-radius: 6px;
+    margin: 50px auto;
+    box-shadow: 10px -1px 20px 1px rgb(0 0 0 /20%);
+    padding: 10px;
+}
+
+.top, 
+.bottom {
+   display: flex;
+   justify-content: center;
+   padding: 10px;
+}
+
+.bottom {
+    margin: 10px;
+}
+
+.footer {
+    font-size: 12px;
+    text-align: right;
+}
+
+.reloadImg {
+    width: 12px;
+    height: auto;
+    margin-left: 5px;
+    cursor: pointer; /* 指過去游標會變成可以案的樣子 */
+
+}
+
+/* .footer::after {
+    content: '';
+    background-image: url("./image/reload.png");
+    width: 12px;
+    height: auto;
+    margin-left: 5px;
+    cursor: pointer; 
+} */
