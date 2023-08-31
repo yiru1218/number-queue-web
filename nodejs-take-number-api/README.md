@@ -4,25 +4,25 @@
 繼承自Array的類，實現了基本的隊列操作。
 
 方法
-* enqueue(val)
+* `enqueue(val)`
 
 將值加入隊列，將值添加至隊列的開始位置。
 
-* dequeue()
+* `dequeue()`
 
 刪除隊列尾端的值，並返回被刪除的值。
 
-* peek()
+* `peek()`
 
 查看隊列中目前最後一個值，而不對隊列做任何更改。
 
-* isEmpty()
+* `isEmpty()`
 
 檢查隊列是否為空。
 
 ## 管理號碼牌
 
-### GET /take-number
+### `GET /take-number`
 
 抽取一個新的號碼牌。
 
@@ -32,7 +32,7 @@
     "queue": [1, 2, 3, ...]
 }
 ```
-### GET /current-number
+### `GET /current-number`
 
 取得目前正在處理的號碼牌。
 
@@ -42,7 +42,7 @@
     "currentNumber": 1
 }
 ```
-### GET /next
+### `GET /next`
 
 處理下一個號碼牌並移出隊列。
 
@@ -52,7 +52,7 @@
     "currentNumber": 2
 }
 ```
-### GET /wait-number
+### `GET /wait-number`
 
 取得目前等待的號碼牌數量。
 
@@ -62,7 +62,7 @@
     "waitNumber": 5
 }
 ```
-### GET /next-number
+### `GET /next-number`
 
 取得下一個待處理的號碼。
 
@@ -94,7 +94,7 @@
     // ...
 ]
 ```
-### POST /post-number
+### `POST /post-number`
 
 將號碼牌資料提交至資料庫。
 
