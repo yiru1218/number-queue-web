@@ -10,7 +10,7 @@
 * 都沒有人排隊會顯示準備中
 
 * 輸入名字案抽的按鈕 會顯示號碼
-![image](https://github.com/yiru1218/number-queue-web/assets/46111217/262ae3d3-5f78-428b-9445-060f9aeedc39)
+![image](https://github.com/yiru1218/number-queue-web/assets/46111217/5c208055-e386-4134-9286-5c689f2629d5)
 
 
 ## 後台
